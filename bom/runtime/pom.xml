@@ -780,6 +780,11 @@
             </dependency>
             <dependency>
                 <groupId>io.quarkus</groupId>
+                <artifactId>quarkus-jdbc-derby-embedded</artifactId>
+                <version>${project.version}</version>
+            </dependency>            
+            <dependency>
+                <groupId>io.quarkus</groupId>
                 <artifactId>quarkus-kafka-client</artifactId>
                 <version>${project.version}</version>
             </dependency>
@@ -3320,6 +3325,11 @@
                     </exclusion>
                 </exclusions>
             </dependency>
+            <dependency>
+                <groupId>org.apache.derby</groupId>
+                <artifactId>derby</artifactId>
+                <version>${derby-jdbc.version}</version>
+            </dependency>            
             <dependency>
                 <groupId>org.apache.derby</groupId>
                 <artifactId>derbyclient</artifactId>

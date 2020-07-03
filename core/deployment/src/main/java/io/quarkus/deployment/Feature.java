@@ -39,6 +39,7 @@ public enum Feature {
     JAEGER,
     JDBC_DB2,
     JDBC_DERBY,
+    JDBC_DERBY_EMBEDDED,
     JDBC_H2,
     JDBC_POSTGRESQL,
     JDBC_MARIADB,
@@ -114,8 +115,7 @@ public enum Feature {
     VERTX,
     VERTX_WEB,
     VERTX_GRAPHQL,
-    WEBJARS_LOCATOR,
-    ;
+    WEBJARS_LOCATOR,;
 
     public String getName() {
         return toString().toLowerCase().replace("_", "-");
